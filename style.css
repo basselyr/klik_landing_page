@@ -1,0 +1,12 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon-bg {
+    background: rgb(36,146,237);
+    background: linear-gradient(158deg, rgba(36,146,237,1) 13%, rgba(27,77,186,1) 84%);
+}
+
+.cta-button {
+    background-color: rgb(240,96,97);
+}
