@@ -15,7 +15,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-klikwhite overscroll-none -z-10">
+<body class="bg-klikwhite overscroll-none">
     <div>
     <header class="absolute inset-x-0 top-0 z-50">
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -76,7 +76,7 @@
         </div>
         </div>
     </header>
-    <main class="relative">
+    <main>
         <div class="relative isolate">
         <svg class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,#ECF2FF,transparent)] bg-klikwhite" aria-hidden="true">
             <defs>
@@ -85,12 +85,12 @@
             </pattern>
             </defs>
             <svg x="50%" y="-1" class="overflow-visible fill-klikwhite">
-                <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0" />
+            <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0" />
             </svg>
             <rect width="100%" height="100%" stroke-width="0" fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)" />
         </svg>
         <div class="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48" aria-hidden="true">
-            <div class="aspect-[801/1036] w-[40rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-90 transition delay-300 duration-300 ease-in-out animate-pulse" style="clip-path: polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)"></div>
+            <div class="aspect-[801/1036] w-[40rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-80 transition delay-300 duration-300 ease-in-out animate-pulse" style="clip-path: polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)"></div>
         </div>
         <div class="overflow-hidden">
             <div class="mx-auto max-w-7xl px-6 pb-32 pt-24 sm:pt-60 lg:px-8 lg:pt-24">
@@ -99,12 +99,11 @@
                 <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:-mt-36 lg:-mt-44 sm:-mt-28"> Foster Engagement, Connections & Belonging in Your <span class="text-klikblue">University Community</span></h1>
                 <p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">Enhance Engagement, Foster Connections, and Build an Inclusive Community</p>
                 <div class="mt-10 flex items-center gap-x-6 bg-transparent">
-                    <a href="#" class="rounded-md px-7 py-4 text-lg font-semibold transition duration-300 ease-out hover:scale-[105%] active:scale-[95%] hover:shadow-lg shadow-current bg-klikred text-klikwhite hover:bg-klikwhite hover:text-klikred z-20">Get Started</a>
+                    <a href="#" class="rounded-md px-7 py-4 text-lg font-semibold transition duration-300 ease-out hover:scale-[105%] active:scale-[95%] hover:shadow-lg shadow-current bg-klikred text-klikwhite hover:bg-klikwhite hover:text-klikred">Get Started</a>
                     
                 </div>
                 </div>
-                <div class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0 relative">
-                    <!-- <img src="LogoBlue.svg" alt="Klik Logo Background" class="absolute h-[100rem] top-0"> -->
+                <div class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                 <div class="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                     <div class="relative">
                     <img src="https://images.pexels.com/photos/3856042/pexels-photo-3856042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Group of young multiethnic cheerful colleagues having party after workday" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
@@ -136,24 +135,23 @@
             </div>
         </div>
         </div>
+        <!-- <img src="https://media.graphassets.com/d0rUBxGYRjOV9I0j4QcB" alt="" class="w-full h-auto block transition duration-300 ease-out md:w-2/3 lg:w-1/2 mx-auto pb-10 -mt-24"> -->
     </main>
     </div>
-    <div class="icon-bg -mt-6 sm:py-6 w-full cardshadow relative py-2" id="whyklik">
-        <div class="custom-shape-divider-top-1689679228 -mt-1">
+    <div class="icon-bg -mt-2 sm:py-6 w-full cardshadow relative" id="whyklik">
+        <div class="custom-shape-divider-top-1689677412">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z" class="shape-fill"></path>
             </svg>
         </div>
-        <div class="overflow-hidden">
-            <img src="Logo.svg" alt="Klik Logo in Background" class="absolute lg:bottom-[50%] md:bottom-[70%] bottom-[40%] opacity-10 mx-auto">
-        </div>
-        
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <div class="mx-auto max-w-2xl lg:text-center lg:mt-4 md:mt-7">
-            <h2 class="text-base font-light leading-7 text-klikgrey pt-10 sm:pt-6">University Social Life: <span class="text-klikyellow font-medium">Reimagined</span></h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-klikwhite sm:text-4xl">Why <img src="Logo.svg" alt="Klik" class="inline h-9 mb-2">?</p>
+          <div class="mx-auto max-w-2xl lg:text-center lg:mt-4 md:mt-7 mt-12">
+            <h2 class="text-base font-semibold leading-7 text-klikgrey">University Social Life: Reimagined</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-klikwhite sm:text-4xl">Why <img src="Logo.svg" alt="Klik" class="inline h-9 mb-1">?</p>
           </div>
-        <img src="https://media.graphassets.com/avKArWjGT5y5gaZJONpj" alt="Klik Mascot Illustration" class="w-auto sm:h-[40rem] lg:mb-48 mb-[30rem] sm:bottom-96 sm:mb-96 sm:-ml-40 lg:-ml-24 absolute sm:-z-20 h-96 ml-32 bottom-[36%]">
+          <div class="top-0 sm:mr-[19rem] md:mr-[26rem] mt-4 md:mt-10 lg:mr-72 xl:mr-80rem">
+            <img src="https://media.graphassets.com/avKArWjGT5y5gaZJONpj" alt="Klik Mascot Illustration" class="w-auto h-28 md:h-36 lg:-my-32 md:-my-32 -my-24 float-right">
+          </div>
           <div class="mx-auto mt-10 max-w-2xl sm:mt-10 lg:mt-14 lg:max-w-4xl">
             <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
               <div class="relative pl-16">
@@ -161,9 +159,9 @@
                   <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg red-bg">
                     <svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" fill="#ECF2FF" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M201.1 71.9c16.9-5 26.6-22.9 21.5-39.8s-22.9-26.6-39.8-21.5c-21.5 6.4-41.8 15.5-60.6 27C114.3 34 105.4 32 96 32C60.7 32 32 60.7 32 96c0 9.4 2 18.3 5.6 26.3c-11.5 18.7-20.6 39-27 60.6c-5 16.9 4.6 34.8 21.5 39.8s34.8-4.6 39.8-21.5c4.3-14.6 10.4-28.5 17.9-41.4c2 .2 4.1 .3 6.1 .3c35.3 0 64-28.7 64-64c0-2.1-.1-4.1-.3-6.1c12.9-7.5 26.8-13.6 41.4-17.9zm128-61.3c-16.9-5-34.8 4.6-39.8 21.5s4.6 34.8 21.5 39.8c14.6 4.3 28.5 10.4 41.4 17.9c-.2 2-.3 4.1-.3 6.1c0 35.3 28.7 64 64 64c2.1 0 4.1-.1 6.2-.3c7.5 12.9 13.6 26.8 17.9 41.4c5 16.9 22.9 26.6 39.8 21.5s26.6-22.9 21.5-39.8c-6.4-21.5-15.5-41.8-27-60.6c3.6-8 5.6-16.9 5.6-26.3c0-35.3-28.7-64-64-64c-9.4 0-18.3 2-26.3 5.6c-18.7-11.5-39-20.6-60.6-27zM71.9 310.9c-5-16.9-22.9-26.6-39.8-21.5s-26.6 22.9-21.5 39.8c6.4 21.5 15.5 41.8 27 60.6C34 397.7 32 406.6 32 416c0 35.3 28.7 64 64 64c9.4 0 18.3-2 26.3-5.6c18.7 11.5 39 20.6 60.6 27c16.9 5 34.8-4.6 39.8-21.5s-4.6-34.8-21.5-39.8c-14.6-4.3-28.5-10.4-41.4-17.9c.2-2 .3-4.1 .3-6.2c0-35.3-28.7-64-64-64c-2.1 0-4.1 .1-6.2 .3c-7.5-12.9-13.6-26.8-17.9-41.4zm429.4 18.3c5-16.9-4.6-34.8-21.5-39.8s-34.8 4.6-39.8 21.5c-4.3 14.6-10.4 28.5-17.9 41.4c-2-.2-4.1-.3-6.2-.3c-35.3 0-64 28.7-64 64c0 2.1 .1 4.1 .3 6.2c-12.9 7.5-26.8 13.6-41.4 17.9c-16.9 5-26.6 22.9-21.5 39.8s22.9 26.6 39.8 21.5c21.5-6.4 41.8-15.5 60.6-27c8 3.6 16.9 5.6 26.3 5.6c35.3 0 64-28.7 64-64c0-9.4-2-18.3-5.6-26.3c11.5-18.7 20.6-39 27-60.6zM192.8 256.8c0-15.6 5.6-29.9 14.9-41.1L223 231c6.6 6.6 17.8 1.9 17.8-7.4V163.2c0-5.7-4.7-10.4-10.4-10.4H169.9c-9.3 0-13.9 11.2-7.4 17.8l11.2 11.2c-17.9 19.8-28.9 46.2-28.9 75.1c0 43.6 24.9 81.3 61.1 99.8c11.8 6 26.3 1.4 32.3-10.4s1.4-26.3-10.4-32.3c-20.8-10.6-34.9-32.2-34.9-57zm93.1-58.6c20.8 10.6 34.9 32.2 34.9 57c0 15.6-5.6 29.9-14.9 41.1L290.6 281c-6.6-6.6-17.8-1.9-17.8 7.4v60.5c0 5.7 4.7 10.4 10.4 10.4h60.5c9.3 0 13.9-11.2 7.4-17.8l-11.2-11.2c17.9-19.8 28.9-46.2 28.9-75.1c0-43.6-24.9-81.3-61.1-99.8c-11.8-6-26.3-1.4-32.3 10.4s-1.4 26.3 10.4 32.3z"/></svg>
                   </div>
-                  Boost Student Engagement &  <span class="text-klikyellow">Well-being</span>
+                  Boost Student <span class="text-klikyellow">Engagement</span> &  <span class="text-klikyellow">Well-being</span>
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70 subtitlefont font-light">Smart matching for meaningful connections and a sense of belonging.</dd>
+                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70">Smart matching for meaningful connections and a sense of belonging.</dd>
               </div>
               <div class="relative pl-16">
                 <dt class="text-base font-semibold leading-7 text-klikwhite">
@@ -172,16 +170,16 @@
                   </div>
                   Foster <span class="text-klikyellow">Meaningful Connections</span> Among Students
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70  subtitlefont font-light">Effortless discovery of like-minded individuals for lasting friendships.</dd>
+                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70">Effortless discovery of like-minded individuals for lasting friendships.</dd>
               </div>
               <div class="relative pl-16">
                 <dt class="text-base font-semibold leading-7 text-klikwhite">
                   <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg red-bg">
                     <svg  class="h-7 w-7 text-klikwhite" viewBox="0 0 21 21"xmlns="http://www.w3.org/2000/svg"><g fill="#ECF2FF" fill-rule="evenodd" stroke-width="1.5"  stroke="#ECF2FF" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)" ><path d="m.5 9.5 9-9 9 9"/><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8"/></g></svg>
                   </div>
-                  Make <span class="text-klikyellow">New Students</span> Feel at Home
+                  Make <span class="text-klikyellow">New Students</span> Feel at <span class="text-klikyellow">Home</span>
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70 subtitlefont font-light">Easy connection and a warm, home-like atmosphere for newcomers.</dd>
+                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70">Easy connection and a warm, home-like atmosphere for newcomers.</dd>
               </div>
               <div class="relative pl-16">
                 <dt class="text-base font-semibold leading-7 text-klikwhite">
@@ -190,16 +188,16 @@
                   </div>
                   Enable <span class="text-klikyellow">Community Activities</span> & Events
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70 subtitlefont font-light">Seamlessly organize and participate in unforgettable activities and events.</dd>
+                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70">Seamlessly organize and participate in unforgettable activities and events.</dd>
               </div>
               <div class="relative pl-16">
                 <dt class="text-base font-semibold leading-7 text-klikwhite">
                   <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg red-bg">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="#ECF2FF" class="bi bi-search h-8 w-8 text-klikwhite translate-x-1 translate-y-1" viewBox="0 0 24 24"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/> </svg>
                   </div>
-                 Discover What Makes Students  <span class="text-klikyellow">Engage</span>
+                 <span class="text-klikyellow">Discover</span> What Makes Students  <span class="text-klikyellow">Engage</span>
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70 subtitlefont font-light"> Gain insights to tailor initiatives that resonate and drive participation.</dd>
+                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70"> Gain insights to tailor initiatives that resonate and drive participation.</dd>
               </div>
               <div class="relative pl-16">
                 <dt class="text-base font-semibold leading-7 text-klikwhite">
@@ -209,20 +207,20 @@
                   </div>
                   Build an <span class="text-klikyellow">Inclusive</span> Community
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70 subtitlefont font-light"> Foster support, understanding, and diversity in a welcoming environment.</dd>
+                <dd class="mt-2 text-base leading-7 text-klikwhite opacity-70"> Foster support, understanding, and diversity in a welcoming environment.</dd>
               </div>
             </dl>
           </div>
-          <div class="mt-10 flex items-center justify-center gap-x-6 mb-3 sm:mb-6">
+          <div class="mt-10 flex items-center justify-center gap-x-6 mb-6">
             <a href="#" class="rounded-md px-7 py-4 text-lg font-semibold transition duration-300 ease-out hover:scale-[105%] active:scale-[95%] hover:shadow-lg shadow-current bg-klikred text-klikwhite hover:bg-klikwhite hover:text-klikred">Learn More</a>
           </div>
         </div>
         
     </div>
-      <div class="bg-klikwhite py-10 sm:py-8" id="features">
+      <div class="bg-klikwhite py-10 sm:py-14" id="features">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:text-center">
-            <h2 class="text-base font-medium leading-7 text-klikblue">Deploy faster</h2>
+            <h2 class="text-base font-semibold leading-7 text-klikblue">Deploy faster</h2>
             <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Features</p>
             <p class="mt-6 text-lg leading-8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
           </div>
@@ -276,51 +274,54 @@
           </div>
         </div>
       </div>
-      <div class="icon-bg cardshadow relative -z-30" id="howitworks">
-        <div class="custom-shape-divider-top-1689679228">
+      <div class="icon-bg cardshadow relative" id="howitworks">
+        <div class="custom-shape-divider-top-1689677412">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z" class="shape-fill"></path>
             </svg>
         </div>
-        <img src="Logo.svg" alt="Klik Logo in Background" class="absolute lg:bottom-[40%] md:bottom-[30%] bottom-[40%] opacity-10 z-auto">
-        <div class="mx-auto max-w-7xl py-12 sm:px-2 sm:py-16 lg:px-4">
-          <div class="mx-auto max-w-2xl px-4 lg:max-w-none -z-10">
+        <div class="mx-auto max-w-7xl py-12 sm:px-2 sm:py-20 lg:px-4">
+          <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
             <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-base font-light leading-7 text-klikgrey">Streamline Your Community-Building Efforts with <span class="text-klikyellow font-medium">3 Simple Steps</span></h2>
-              <h2 class="text-4xl font-bold tracking-tight text-klikwhite">How It Works</h2>
+                <h2 class="text-base font-semibold leading-7 text-klikgrey">How It Works</h2>
+              <h2 class="text-4xl font-bold tracking-tight text-klikwhite">Streamline Your <span class="text-klikyellow">Community-Building</span> Efforts</h2>
+              <p class="mt-4 text-klikyellow text-2xl">3 Simple Steps</p>
             </div>
             <div class="mt-10 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
               <div class="sm:flex lg:block lg:-mt-5">
-                <div class="sm:flex-shrink-0 lg:-mt-1 z-20">
+                <div class="sm:flex-shrink-0 lg:-mt-1">
+                  <!-- <img class="h-16 w-16" src="/Users/Bassel/Documents/Klik/New Landing Page/create-dashboard.svg" alt=""> -->
                   <img class="h-48 w-auto mx-auto lg:ml-12" src="https://media.graphassets.com/L6BTYFOS163vfQ3aZUwV" alt="University Social Space Illustration">
                 </div>
                 <div class="mt-1.5 sm:ml-5 sm:mt-0 lg:ml-0 lg:mt-2 md:mt-3">
                   <h3 class="text-base font-semibold leading-7 text-klikwhite">1. <span class="text-klikyellow">Create</span>  University Social Space</h3>
-                  <p class="mt-2 text-base leading-7 text-klikwhite opacity-70 subtitlefont font-light">Set up your customized university social space on Klik, tailoring it to match the unique identity and culture of your institution.</p>
+                  <p class="mt-2 text-base leading-7 text-klikwhite opacity-70">Set up your customized university social space on Klik, tailoring it to match the unique identity and culture of your institution.</p>
                 </div>
               </div>
               <div class="sm:flex lg:block">
-                <div class="sm:flex-shrink-0 md:mr-2 mr-7 -mt-10 md:-mt-7 z-30">
+                <div class="sm:flex-shrink-0 md:mr-2 mr-7 -mt-10 md:-mt-7">
+                  <!-- <img class="h-20 w-16 mx-auto" src="/Users/Bassel/Documents/Klik/New Landing Page/noun-friends-plus-3489959.svg" alt=""> -->
                   <img class="h-48 w-auto lg:ml-20 mx-auto sm:ml-7 md:ml-12" src="https://media.graphassets.com/ydEZLNNTiqvIGJMCOxHE" alt="Students Chatting Illustration">
                 </div>
                 <div class="mt-2 sm:ml-16 md:ml-16 sm:mt-0 lg:ml-0 lg:mt-3">
-                  <h3 class="text-base font-semibold leading-7 text-klikwhite">2.<span class="text-red"> Invite</span> Students to Join</h3>
-                  <p class="mt-1.5 text-base leading-7 text-klikwhite opacity-70 subtitlefont font-light">Extend personalized invitations to students, welcoming them to join the vibrant Klik community within your university.</p>
+                  <h3 class="text-base font-semibold leading-7 text-klikwhite">2.<span class="text-klikyellow"> Invite</span> Students to Join</h3>
+                  <p class="mt-1.5 text-base leading-7 text-klikwhite opacity-70">Extend personalized invitations to students, welcoming them to join the vibrant Klik community within your university.</p>
                 </div>
               </div>
               <div class="sm:flex lg:block lg:-mt-12">
                 <div class="sm:flex-shrink-0 md:mr-2 mr-12 -mt-10 md:-mt-7 lg:-mb-5 lg:-mt-2.5">
+                  <!-- <img class="h-20 w-16" src="/Users/Bassel/Documents/Klik/New Landing Page/noun-community-4563443.svg" alt=""> -->
                   <img class="h-60 w-auto lg:ml-10 mx-auto md:ml-4" src="https://media.graphassets.com/YZfyKSv5TcOPdm1n6iTT" alt="Students High Fiving Around Klik Mascots">
                 </div>
                 <div class="mt-1 md:ml-12 sm:mt-0 sm:ml-6 lg:ml-0 lg:mt-3 md:mt-5">
                   <h3 class="text-base font-semibold leading-7 text-klikwhite">3. <span class="text-klikyellow">Engage</span>  & Grow the Community</h3>
-                  <p class="mt-1.5 text-base leading-7 text-klikwhite opacity-70 subtitlefont font-light font-light">Take advantage of Klik's powerful tools and features to engage students, foster connections, and watch your community thrive and grow.</p>
+                  <p class="mt-1.5 text-base leading-7 text-klikwhite opacity-70">Take advantage of Klik's powerful tools and features to engage students, foster connections, and watch your community thrive and grow.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="mt-10 flex items-center justify-center gap-x-6 z-0">
-            <a href="#" class="rounded-md px-7 py-4 text-lg font-semibold transition duration-300 ease-out hover:scale-[105%] active:scale-[95%] hover:shadow-lg shadow-current bg-klikred text-klikwhite hover:bg-klikwhite hover:text-klikred z-[1000000]">Get Started</a>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="#" class="rounded-md px-7 py-4 text-lg font-semibold transition duration-300 ease-out hover:scale-[105%] active:scale-[95%] hover:shadow-lg shadow-current bg-klikred text-klikwhite hover:bg-klikwhite hover:text-klikred">Get Started</a>
           </div>
         </div>
       </div>
@@ -329,38 +330,38 @@
           <div class="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
             <div class="px-6 md:px-0 lg:pr-4 lg:pt-4">
               <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-                <h2 class="text-base font-medium leading-7 text-klikblue">Unlock the Potential of Student Social Networks</h2>
-                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">How <img src="LogoBlack.svg" alt="Klik" class="inline h-9 mb-2 fill-gray-900"> Helps Students Connect, Engage & Belong</p>
+                <h2 class="text-base font-semibold leading-7 text-klikblue">Unlock the Potential of Student Social Networks</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">How Klik Helps Students Connect, Engage & Belong</p>
                 <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                   <div class="relative pl-9">
                     <dt class="inline font-semibold text-gray-900">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="absolute left-0 top-1 h-7 w-7 text-klikblue" fill="currentColor" ><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M184 88C184 118.9 158.9 144 128 144C97.07 144 72 118.9 72 88C72 57.07 97.07 32 128 32C158.9 32 184 57.07 184 88zM208.4 196.3C178.7 222.7 160 261.2 160 304C160 338.3 171.1 369.8 192 394.5V416C192 433.7 177.7 448 160 448H96C78.33 448 64 433.7 64 416V389.2C26.16 371.2 0 332.7 0 288C0 226.1 50.14 176 112 176H144C167.1 176 190.2 183.5 208.4 196.3V196.3zM64 245.7C54.04 256.9 48 271.8 48 288C48 304.2 54.04 319.1 64 330.3V245.7zM448 416V394.5C468 369.8 480 338.3 480 304C480 261.2 461.3 222.7 431.6 196.3C449.8 183.5 472 176 496 176H528C589.9 176 640 226.1 640 288C640 332.7 613.8 371.2 576 389.2V416C576 433.7 561.7 448 544 448H480C462.3 448 448 433.7 448 416zM576 330.3C585.1 319.1 592 304.2 592 288C592 271.8 585.1 256.9 576 245.7V330.3zM568 88C568 118.9 542.9 144 512 144C481.1 144 456 118.9 456 88C456 57.07 481.1 32 512 32C542.9 32 568 57.07 568 88zM256 96C256 60.65 284.7 32 320 32C355.3 32 384 60.65 384 96C384 131.3 355.3 160 320 160C284.7 160 256 131.3 256 96zM448 304C448 348.7 421.8 387.2 384 405.2V448C384 465.7 369.7 480 352 480H288C270.3 480 256 465.7 256 448V405.2C218.2 387.2 192 348.7 192 304C192 242.1 242.1 192 304 192H336C397.9 192 448 242.1 448 304zM256 346.3V261.7C246 272.9 240 287.8 240 304C240 320.2 246 335.1 256 346.3zM384 261.7V346.3C393.1 335 400 320.2 400 304C400 287.8 393.1 272.9 384 261.7z"/></svg>
-                      Join Matching Spaces & <span class="text-klikred">Meet New People</span> with Common Interests
+                      Join <span class="text-klikred">Matching Spaces</span> & Meet <span class="text-klikblue">New People</span> with <span class="text-klikred">Common Interests</span>
                     </dt>
-                    <dd   class="subtitlefont">Connect with like-minded individuals by joining matching spaces tailored to various interests, hobbies, and goals.</dd>
+                    <dd   >Connect with like-minded individuals by joining matching spaces tailored to various interests, hobbies, and goals.</dd>
                   </div>
                   <div class="relative pl-9">
                     <dt class="inline font-semibold text-gray-900">
                      
                       <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-0 top-1 h-7 w-7 text-klikblue" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-6 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM19 15H9v-.25C9 12.901 11.254 11 14 11s5 1.901 5 3.75V15z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8z"></path></svg>
-                      <span class="text-klikred">Customize</span> Multiple Cool Profiles
+                      <span class="text-klikred">Customize</span> Multiple Cool <span class="text-klikblue">Profiles</span>
                     </dt>
-                    <dd  class="subtitlefont" >Express your unique personality and interests by customizing multiple cool profiles on Klik. Stand out and find others who resonate with your passions.</dd>
+                    <dd   >Express your unique personality and interests by customizing multiple cool profiles on Klik. Stand out and find others who resonate with your passions.</dd>
                   </div>
                   <div class="relative pl-9">
                     <dt class="inline font-semibold text-gray-900">
                       <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"
                       class="absolute left-0 top-1 h-7 w-7 text-klikblue" fill=" currentColor"><path d="M18 8.31c-.36-.41-.73-.82-1.12-1.21l-.29-.27.14-.12a3.15 3.15 0 0 0 .9-3.49A3.91 3.91 0 0 0 14 1v2a2 2 0 0 1 1.76 1c.17.4 0 .84-.47 1.31-.07.08-.15.13-.22.2-3-2.41-6.29-3.77-7.9-2.16a2.16 2.16 0 0 0-.41.59v.1l-.18.53-4.41 13.1A3.28 3.28 0 0 0 5.28 22a3.21 3.21 0 0 0 1-.17L20 17.28a1 1 0 0 0 .43-.31l.21-.18c1.43-1.44.51-4.21-1.41-6.9A6.63 6.63 0 0 1 23 9V7a8.44 8.44 0 0 0-5 1.31zM5.7 19.93a1.29 1.29 0 0 1-1.63-1.63l1.36-4.1a10.7 10.7 0 0 0 4.29 4.39zm7-2.33a8.87 8.87 0 0 1-6.3-6.29l1-3 .06.09c.11.22.25.45.39.68s.16.29.26.44.33.48.51.73.19.28.3.42.43.55.66.82l.29.35c.34.39.7.77 1.08 1.16s.68.64 1 1l.33.28.78.63.37.28c.28.2.55.4.83.58l.31.2c.36.22.72.43 1.07.61h.05zm6.51-2.23h-.06c-.69.38-3.56-.57-6.79-3.81-.34-.34-.66-.67-.95-1l-.29-.35-.53-.64-.29-.4c-.13-.19-.27-.37-.39-.55l-.26-.42-.29-.47c-.08-.14-.14-.27-.21-.4s-.15-.26-.21-.4a3.31 3.31 0 0 1-.14-.36c-.05-.13-.11-.26-.15-.38S8.6 6 8.57 5.88s-.05-.22-.07-.32a2.26 2.26 0 0 1 0-.26 1 1 0 0 1 0-.24l.11-.31c.36-.36 2.23 0 4.73 1.9A4.13 4.13 0 0 1 12 7v2a6.45 6.45 0 0 0 3-.94l.48.46c.42.42.81.85 1.18 1.28a5.32 5.32 0 0 0-.6 3.4l2-.39a3.57 3.57 0 0 1 0-1.12 11.3 11.3 0 0 1 .81 1.45c.56 1.32.52 2.06.34 2.23z"></path></svg>
-                      Discover <span class="text-klikred">Fun Activities</span> & Events on Campus
+                      Discover <span class="text-klikred">Fun Activities</span> & Events <span class="text-klikblue">on Campus</span>
                     </dt>
-                    <dd   class="subtitlefont">Stay in the loop with the latest happenings on your campus. Find exciting activities, events, and initiatives tailored to your interests.</dd>
+                    <dd   >Stay in the loop with the latest happenings on your campus. Find exciting activities, events, and initiatives tailored to your interests.</dd>
                   </div>
                   <div class="relative pl-9">
                     <dt class="inline font-semibold text-gray-900">
                       <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" class="absolute h-7 w-7 left-0 top-1 text-klikblue" fill="currentColor"><path d="M19.864 8.465a3.505 3.505 0 0 0-3.03-4.449A3.005 3.005 0 0 0 14 2a2.98 2.98 0 0 0-2 .78A2.98 2.98 0 0 0 10 2c-1.301 0-2.41.831-2.825 2.015a3.505 3.505 0 0 0-3.039 4.45A4.028 4.028 0 0 0 2 12c0 1.075.428 2.086 1.172 2.832A4.067 4.067 0 0 0 3 16c0 1.957 1.412 3.59 3.306 3.934A3.515 3.515 0 0 0 9.5 22c.979 0 1.864-.407 2.5-1.059A3.484 3.484 0 0 0 14.5 22a3.51 3.51 0 0 0 3.19-2.06 4.006 4.006 0 0 0 3.138-5.108A4.003 4.003 0 0 0 22 12a4.028 4.028 0 0 0-2.136-3.535zM9.5 20c-.711 0-1.33-.504-1.47-1.198L7.818 18H7c-1.103 0-2-.897-2-2 0-.352.085-.682.253-.981l.456-.816-.784-.51A2.019 2.019 0 0 1 4 12c0-.977.723-1.824 1.682-1.972l1.693-.26-1.059-1.346a1.502 1.502 0 0 1 1.498-2.39L9 6.207V5a1 1 0 0 1 2 0v13.5c0 .827-.673 1.5-1.5 1.5zm9.575-6.308-.784.51.456.816c.168.3.253.63.253.982 0 1.103-.897 2-2.05 2h-.818l-.162.802A1.502 1.502 0 0 1 14.5 20c-.827 0-1.5-.673-1.5-1.5V5c0-.552.448-1 1-1s1 .448 1 1.05v1.207l1.186-.225a1.502 1.502 0 0 1 1.498 2.39l-1.059 1.347 1.693.26A2.002 2.002 0 0 1 20 12c0 .683-.346 1.315-.925 1.692z"></path></svg>
-                      Become Amazing at Conversations with an <span class="text-klikred">AI Chat Assistant</span>
+                      Become <span class="text-klikred">Amazing</span> at <span class="text-klikblue">Conversations</span> with an <span class="text-klikred">AI</span> Chat Assistant
                     </dt>
-                    <dd class="subtitlefont">Enhance your communication skills and build better connections with the help of Klik's AI chat assistant, guiding you through meaningful conversations.</dd>
+                    <dd>Enhance your communication skills and build better connections with the help of Klik's AI chat assistant, guiding you through meaningful conversations.</dd>
                   </div>
                 </dl>
               </div>
@@ -387,18 +388,14 @@
           </div>
         </div>
       </div>
-      <div class="icon-bg relative">
-        <div class="flex justify-center">
-            <img src="lonesomefronthappy.png" alt="Character Welcoming You with Open Arms" class="absolute md:bottom-[55%] bottom-[60%] h-5/6">
-        </div>
-        <div class="mx-auto max-w-7xl py-12 sm:px-6 sm:py-24 lg:px-8 overflow-hidden">
-              <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16 relative">
-                  <img src="Logo.svg" alt="Klik Logo in Background" class="absolute md:bottom-[20%] sm:bottom-[30%] bottom-[40%] opacity-10 z-10 right-0">
-                  <h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl z-20">Empower Your University Community Today.</h2>
-            <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300 z-20">Take your university community to new heights with Klik. Empower your students to engage, connect, and thrive in a vibrant and inclusive environment. Join the movement and transform your university community with Klik.</p>
+      <div class="icon-bg">
+        <div class="mx-auto max-w-7xl py-16 sm:px-6 sm:py-24 lg:px-8">
+          <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
+            <h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">Empower Your University Community Today.</h2>
+            <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">Take your university community to new heights with Klik. Empower your students to engage, connect, and thrive in a vibrant and inclusive environment. Join the movement and transform your university community with Klik.</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
-              <a href="#" class="rounded-md px-7 py-4 text-lg font-semibold transition duration-300 ease-out hover:scale-[105%] active:scale-[95%] hover:shadow-lg shadow-current bg-klikred text-klikwhite hover:bg-klikwhite hover:text-klikred z-20">Get Started</a>
-        </div>
+              <a href="#" class="rounded-md px-7 py-4 text-lg font-semibold transition duration-300 ease-out hover:scale-[105%] active:scale-[95%] hover:shadow-lg shadow-current bg-klikred text-klikwhite hover:bg-klikwhite hover:text-klikred">Get Started</a>
+            </div>
             <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]" aria-hidden="true">
               <circle cx="512" cy="512" r="512" fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)" fill-opacity="0.7" />
               <defs>
@@ -408,6 +405,9 @@
                 </radialGradient>
               </defs>
             </svg>
+            <div class="relative bottom-0 right-0">
+              <img src="https://media.graphassets.com/nkB9T8qRkGDEFnOSrRyc" alt="Klik Friends Illustration" class="w-auto h-60 lg:-my-36 -mr-10 md:-my-32 -my-24 float-right">
+            </div>
           </div>
         </div>
       </div>      
