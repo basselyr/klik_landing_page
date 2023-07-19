@@ -28,7 +28,9 @@ body {
 } */
 
 .cardshadow {
-    box-shadow: 0 23px 10px 0 rgba(0, 0, 0, 0.2), 0 23px 25px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 17px 10px 0 rgba(0, 0, 0, 0.2), 0 17px 25px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 17px 10px 0 rgba(0, 0, 0, 0.2), 0 17px 25px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 17px 10px 0 rgba(0, 0, 0, 0.2), 0 17px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
 .custom-shape-divider-top-1689679228 {

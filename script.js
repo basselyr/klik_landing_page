@@ -1,5 +1,5 @@
-const button = document.querySelector('.openmenu'); // Hamburger Icon
-const menu = document.querySelector('#menu'); // Menu
+const button = document.querySelector('.openmenu'); 
+const menu = document.querySelector('#menu'); 
 const button2 = document.querySelector('.closemenu')
 
 button.addEventListener('click', () => {
