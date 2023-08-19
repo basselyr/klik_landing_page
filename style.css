@@ -2,6 +2,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+img {
+    pointer-events: none;
+}
+
 .subtitlefont {
     font-family: 'Raleway', sans-serif;
 }
@@ -72,6 +76,6 @@ body {
 }
 
 dd.panel.show {
-    max-height: 23rem;
+    max-height: 24rem;
     padding: 0.75rem;
 }
