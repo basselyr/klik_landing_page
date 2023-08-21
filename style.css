@@ -82,3 +82,33 @@ dd.panel.show {
     padding-top: 1.8rem;
     margin-top: -1.5rem;
 }
+
+.popup {
+    display: none;
+    position: fixed;
+    top:25%;
+    z-index: 50;
+    background: rgba(235,55,97);
+    background: linear-gradient(158deg, rgba(235,55,97,1) 13%, rgba(190,55,97,1) 84%);
+  }
+
+#popup:after {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -2;
+  }
+  
+  #popup:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }

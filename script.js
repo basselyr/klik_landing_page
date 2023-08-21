@@ -39,3 +39,14 @@ function setClass(els, className, fnName) {
         els[i].classList[fnName](className);
     }
 }
+
+$ = function(id) {
+  return document.getElementById(id);
+}
+
+var popstart = function(id) {
+	$(id).style.display ='block';
+}
+var popclose = function(id) {
+	$(id).style.display ='none';
+}
