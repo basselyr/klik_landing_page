@@ -86,7 +86,6 @@ dd.panel.show {
 .popup {
     display: none;
     position: fixed;
-    top:25%;
     z-index: 50;
     background: rgba(235,55,97);
     background: linear-gradient(158deg, rgba(235,55,97,1) 13%, rgba(190,55,97,1) 84%);
