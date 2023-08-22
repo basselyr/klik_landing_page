@@ -83,13 +83,29 @@ dd.panel.show {
     margin-top: -1.5rem;
 }
 
-.popup {
+#popup {
     display: none;
     position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -40vw;
+    margin-top: -29.2vh;
     z-index: 50;
-    background: rgba(235,55,97);
-    background: linear-gradient(158deg, rgba(235,55,97,1) 13%, rgba(190,55,97,1) 84%);
+    background: rgb(36,146,237);
+    background: -moz-linear-gradient(180deg, rgba(36,146,237,1) 0%, rgba(27,77,186,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(36,146,237,1) 0%, rgba(27,77,186,1) 100%);
+    background: linear-gradient(180deg, rgba(36,146,237,1) 0%, rgba(27,77,186,1) 100%);
   }
+
+@media (max-width: 640px) {
+    #popup {
+        width: 92%;
+        height: 75%;
+        margin-left: -46%;
+        margin-top: -60%;
+    }
+    
+}
 
 #popup:after {
     position: fixed;
@@ -98,8 +114,8 @@ dd.panel.show {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0,0,0,0.5);
-    z-index: -2;
+    background: rgba(0,0,0,0.4);
+    z-index: -50;
   }
   
   #popup:before {
